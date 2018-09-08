@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "EBezpeci2", "EBezpeci2_Cordova\EBezpeci2.jsproj", "{ADD6A902-F8CA-44A1-9522-72E719A312EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Android = Debug|Android
+		Debug|iOS = Debug|iOS
+		Debug|Windows-ARM = Debug|Windows-ARM
+		Debug|Windows-x64 = Debug|Windows-x64
+		Debug|Windows-x86 = Debug|Windows-x86
+		Release|Android = Release|Android
+		Release|iOS = Release|iOS
+		Release|Windows-ARM = Release|Windows-ARM
+		Release|Windows-x64 = Release|Windows-x64
+		Release|Windows-x86 = Release|Windows-x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Debug|Android.ActiveCfg = Debug|Android
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Debug|Android.Build.0 = Debug|Android
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Debug|Android.Deploy.0 = Debug|Android
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Debug|iOS.ActiveCfg = Debug|iOS
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Debug|iOS.Build.0 = Debug|iOS
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Debug|iOS.Deploy.0 = Debug|iOS
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Debug|Windows-ARM.ActiveCfg = Debug|Windows-ARM
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Debug|Windows-ARM.Build.0 = Debug|Windows-ARM
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Debug|Windows-ARM.Deploy.0 = Debug|Windows-ARM
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Debug|Windows-x64.ActiveCfg = Debug|Windows-x64
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Debug|Windows-x64.Build.0 = Debug|Windows-x64
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Debug|Windows-x64.Deploy.0 = Debug|Windows-x64
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Debug|Windows-x86.ActiveCfg = Debug|Windows-x86
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Debug|Windows-x86.Build.0 = Debug|Windows-x86
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Debug|Windows-x86.Deploy.0 = Debug|Windows-x86
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Release|Android.ActiveCfg = Release|Android
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Release|Android.Build.0 = Release|Android
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Release|Android.Deploy.0 = Release|Android
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Release|iOS.ActiveCfg = Release|iOS
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Release|iOS.Build.0 = Release|iOS
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Release|iOS.Deploy.0 = Release|iOS
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Release|Windows-ARM.ActiveCfg = Release|Windows-ARM
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Release|Windows-ARM.Build.0 = Release|Windows-ARM
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Release|Windows-ARM.Deploy.0 = Release|Windows-ARM
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Release|Windows-x64.ActiveCfg = Release|Windows-x64
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Release|Windows-x64.Build.0 = Release|Windows-x64
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Release|Windows-x64.Deploy.0 = Release|Windows-x64
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Release|Windows-x86.ActiveCfg = Release|Windows-x86
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Release|Windows-x86.Build.0 = Release|Windows-x86
+		{ADD6A902-F8CA-44A1-9522-72E719A312EF}.Release|Windows-x86.Deploy.0 = Release|Windows-x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7930269-D661-4042-97BB-1E2D916C5D87}
+	EndGlobalSection
+EndGlobal
