@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1.0, user-scalable=0" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
 
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; ; media-src *">-->
 
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="format-detection" content="telephone=no">
@@ -20,6 +20,8 @@
     <script src="scripts/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="scripts/popper.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="scripts/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="scripts/index.js" type="text/javascript" charset="utf-8"></script>
+
     <style>
         body {
             font-family: 'Roboto',sans-serif;
@@ -30,36 +32,39 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-light bg-white">
+        <nav class="navbar navbar-light bg-white" onclick="menuclick()">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <img src="images/logo.jpg" class="logo"/>
+            <img src="images/logo.jpg" class="logo" />
 
-            <div class="navbar-collapse collapse" id="navbarsExample01" style="">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="cast1.html">Pravidla bezpečnosti v online prostředí</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cast2.html">Jak zabezpečit první telefon</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cast3.html">Co dělat, když...</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Slovníček<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cast5.html">Kde hledat pomoc?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cast6.html">O aplikaci, kontakt</a>
-                    </li>
-                </ul>
-            </div>
         </nav>
     </header>
+    <div id="mynav" class="mynav" style="display:none;">
+        <div style="vertical-align:central; margin-top:33px;">
+            <a class="nav-link" href="cast1.html">Pravidla bezpečnosti v online prostředí<span class="sr-only">(current)</span></a>
+            <hr style="color: darkgrey; width: 90%" />
+        </div>
+        <div style="vertical-align:central">
+            <a class="nav-link" href="cast2.html">Jak zabezpečit první telefon</a>
+            <hr style="color: darkgrey; width: 90%" />
+        </div>
+        <div style="vertical-align:central">
+            <a class="nav-link" href="cast3.html">Co dělat, když...</a>
+            <hr style="color: darkgrey; width: 90%" />
+        </div>
+        <div style="vertical-align:central">
+            <a class="nav-link active" href="cast4.html">Slovníček</a>
+            <hr style="color: darkgrey; width: 90%" />
+        </div>
+        <div style="vertical-align:central">
+            <a class="nav-link" href="cast5.html">Kde hledat pomoc?</a>
+            <hr style="color: darkgrey; width: 90%" />
+        </div>
+        <div style="vertical-align:central;margin-bottom:33px;">
+            <a class="nav-link" href="cast6.html">O aplikaci, kontakt</a>
+        </div>
+    </div>
     <div class="container">
 
 
